@@ -1,6 +1,9 @@
 
 rootProject.name = "food-ordering-system"
 
+include("common")
+include("common:common-domain")
+include("order-service")
 include("order-application")
 include("order-container")
 include("order-dataaccess")
