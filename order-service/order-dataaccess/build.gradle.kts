@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-	implementation(project(":order-domain:order-application-service"))
+//	implementation(project(":order-domain:order-application-service"))
 }
 
 tasks.withType<KotlinCompile> {

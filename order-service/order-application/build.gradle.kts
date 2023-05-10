@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-	implementation(project(":order-domain:order-application-service"))
+//	implementation(project(":order-application-service"))
 
 	implementation("com.github.ferstl:depgraph-maven-plugin:4.0.2")
 	implementation("org.springframework.boot:spring-boot-starter")

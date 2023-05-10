@@ -14,11 +14,11 @@ repositories {
 }
 
 dependencies {
-	implementation(project(":order-domain:order-domain-core"))
-	implementation(project(":order-domain:order-application-service"))
-	implementation(project(":order-application"))
-	implementation(project(":order-dataaccess"))
-	implementation(project(":order-messaging"))
+//	implementation(project(":order-domain:order-domain-core"))
+//	implementation(project(":order-domain:order-application-service"))
+//	implementation(project(":order-application"))
+//	implementation(project(":order-dataaccess"))
+//	implementation(project(":order-messaging"))
 }
 
 tasks.withType<KotlinCompile> {
